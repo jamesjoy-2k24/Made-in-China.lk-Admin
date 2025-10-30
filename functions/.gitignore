@@ -1,0 +1,18 @@
+# Compiled JavaScript files
+lib/**/*.js
+lib/**/*.js.map
+
+# TypeScript v1 declaration files
+typings/
+
+# Node.js dependency directory
+node_modules/
+*.local
+
+# Optional npm cache directory
+.npm
+
+.env
+.env.test
+.env.local
+made-in-china-c44be-firebase-adminsdk-fbsvc-deee454b1c.json

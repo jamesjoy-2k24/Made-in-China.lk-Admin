@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --toastify-color-progress-light: theme('colors.primary.500');
+  --toastify-color-success: theme('colors.green.500');
+  --toastify-color-error: theme('colors.primary.600');
+}

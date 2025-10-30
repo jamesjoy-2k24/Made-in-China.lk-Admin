@@ -1,0 +1,12 @@
+{
+  "admins": [
+    {
+      "email": "admin.madeinchina@gmail.com",
+      "password": "Admin123@",
+      "name": "Main Admin",
+      "image": "https://example.com/avatar-admin.png",
+      "phone": "+94 76 000 0000",
+      "role": "SuperAdmin"
+    }
+  ]
+}

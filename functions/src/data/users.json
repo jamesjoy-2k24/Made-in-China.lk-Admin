@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": "u_1001",
+      "name": "Joy",
+      "phone": "+94 76 973 3343",
+      "password": "Passw0rd!",
+      "isVerified": true
+    },
+    {
+      "id": "u_1002",
+      "name": "Kirushikan",
+      "phone": "+94 76 432 4135",
+      "password": "Secret123",
+      "isVerified": true
+    },
+    {
+      "id": "u_1003",
+      "name": "Remil",
+      "phone": "+94  77 620 0662",
+      "password": "Abcdef12",
+      "isVerified": false
+    }
+  ]
+}
