@@ -323,7 +323,7 @@ const LandingPage: FC = () => {
       >
         <div className='mb-8'>
           <p className='mb-2 text-white text-lg font-semibold'>Contact Us</p>
-          <p>Email: support@made-in-china.lk | Hotline: +94 71 123 4567</p>
+          <p>Email: support@made-in-china.lk | Hotline: +94 77 740 5505</p>
         </div>
         <div className='flex justify-center gap-6 mb-8'>
           {[Facebook, Instagram, Youtube].map((Icon, i) => (
@@ -345,7 +345,7 @@ const LandingPage: FC = () => {
           >
             Kala.Nex
           </a>
-          <br />© {new Date().getFullYear()} Made-in-China.lk — All Rights
+          <br />© {new Date().getFullYear()} MIC & Co Pvt Ltd — All Rights
           Reserved.
         </p>
       </footer>
