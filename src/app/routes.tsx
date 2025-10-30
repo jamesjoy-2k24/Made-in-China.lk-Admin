@@ -1,6 +1,6 @@
 import React from 'react';
 import { createBrowserRouter, Navigate } from 'react-router-dom';
-import  AuthGuard  from '@/lib/authGuard';
+import AuthGuard from '@/lib/authGuard';
 import AppShell from '@/components/layout/AppShell';
 import LoginPage from '@/features/auth/LoginPage';
 import DashboardPage from '@/features/dashboard/DashboardPage';
@@ -18,6 +18,7 @@ import RolesPage from '@/features/system/RolesPage';
 import AuditLogsPage from '@/features/system/AuditLogsPage';
 import SettingsPage from '@/features/system/SettingsPage';
 import SubCategoriesPage from '@/features/catalog/SubCategoriesPage';
+import LandingPage from '@/features/landing/landingPage';
 
 const NotFoundPage = () => (
   <div className='p-6 text-center'>404 - Page Not Found</div>
@@ -28,11 +29,15 @@ const UnauthorizedPage = () => (
 
 export const router = createBrowserRouter([
   {
+    path: '/',
+    element: <LandingPage />,
+  },
+  {
     path: '/login',
     element: <LoginPage />,
   },
   {
-    path: '/',
+    path: '/dashboard',
     element: (
       <AuthGuard>
         <AppShell />
@@ -128,7 +133,7 @@ export const router = createBrowserRouter([
               </AuthGuard>
             ),
           },
-           {
+          {
             path: 'subcategories',
             element: (
               <AuthGuard>

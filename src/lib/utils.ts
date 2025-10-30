@@ -10,7 +10,7 @@ export const generateId = (): string => {
 };
 
 export const sleep = (ms: number): Promise<void> => {
-  return new Promise(resolve => setTimeout(resolve, ms));
+  return new Promise((resolve) => setTimeout(resolve, ms));
 };
 
 export const debounce = <T extends (...args: unknown[]) => unknown>(
@@ -27,7 +27,7 @@ export const debounce = <T extends (...args: unknown[]) => unknown>(
 export const getInitials = (name: string): string => {
   return name
     .split(' ')
-    .map(part => part.charAt(0).toUpperCase())
+    .map((part) => part.charAt(0).toUpperCase())
     .slice(0, 2)
     .join('');
 };
